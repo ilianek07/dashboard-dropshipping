@@ -1,0 +1,29 @@
+1. Correction des Images & Listes par section :
+
+Les images de produits ne s'affichent pas ou se répètent. Modifie les données fictives (mock data) pour que chaque catégorie possède 20 produits 100% uniques. Utilise des URLs stables de banques d'images basées sur des mots-clés e-commerce précis (ex: https://loremflickr.com/400/400/gadget, https://loremflickr.com/400/400/cosmetics) pour que l'image corresponde à la niche.
+
+Assure-toi que chaque onglet de catégorie charge bien son propre Top 20 exclusif.
+
+2. Amélioration du Panneau "Analyser" & Effet Bourse :
+
+Dans le classement, ajoute à côté de chaque rang une petite flèche verte (▲), rouge (▼) ou un point gris (•) pour simuler les mouvements du produit comme à la bourse.
+
+Quand on clique sur "Analyser", le panneau latéral doit afficher : une jauge visuelle de "Score de Saturation" (de vert à rouge) et un onglet "Exemples de Publicités TikTok" avec des fausses miniatures indiquant des millions de vues.
+
+3. Ajout de la Section VIP "Mode Sniper" :
+
+Ajoute un onglet de catégorie "🎯 Mode Sniper (VIP)". Rends cet onglet très cool graphiquement (effet néon doré). Quand on clique dessus, le contenu est flouté (blur) avec un cadenas et un texte : "Contenu réservé aux membres VIP à 5€/mois".
+
+4. Système de Connexion (Profil en haut à droite) :
+
+Quand on clique sur l'icône de profil en haut à droite, ouvre une fenêtre modale (pop-up) de connexion.
+
+Intègre un formulaire propre : "Créer un compte / Se connecter" avec un champ Email et un bouton "Envoyer le lien de vérification par email" (Prépare la logique de connexion compatible avec Supabase Auth).
+
+5. Intégration du Paiement PayPal (Abonnement 5€/mois) :
+
+Dans le profil utilisateur et sur l'onglet VIP bloqué, ajoute un bouton d'abonnement : "Passer Premium (5€ / mois)".
+
+Intègre le SDK ou le script de bouton intelligent PayPal (PayPal Smart Buttons). L'argent doit être configuré pour aller directement vers mon compte PayPal. Pour l'instant, écris la structure du code avec une variable PAYPAL_EMAIL_PLACEHOLDER que je pourrai remplacer par mon propre email de compte PayPal.
+
+Applique ces changements proprement en gardant le style Dark Mode actuel et des transitions fluides.

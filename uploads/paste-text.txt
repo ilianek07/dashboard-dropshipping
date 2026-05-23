@@ -1,0 +1,49 @@
+Rôle et Objectif :
+Crée une interface utilisateur moderne, dynamique et épurée pour une application web de type tableau de bord (dashboard) e-commerce SaaS. L'objectif unique de cette application est d'afficher un classement en temps réel (Leaderboard) des 20 meilleurs "produits gagnants" (winning products) à vendre sur Shopify pour les entrepreneurs qui lancent leur business.
+
+Style Visuel et Ambiance :
+
+Thème : Mode sombre (Dark mode) élégant, inspiré des terminaux de trading financier, pour donner une impression de données exclusives et d'opportunités lucratives.
+
+Couleurs : Fond gris très foncé/noir. Accents en vert émeraude (pour symboliser le profit et la croissance) et en bleu électrique.
+
+Typographie : Sans-serif, propre et lisible (type Inter ou Roboto), avec des chiffres bien mis en évidence pour les prix et les classements.
+
+Structure de la Page et Composants Requis :
+
+1. En-tête (Header) :
+
+Un logo minimaliste à gauche.
+
+Un titre central : "Live Top 20 : Shopify Winning Products".
+
+Un indicateur visuel "Live" avec un point rouge ou vert qui pulse (clignote doucement) pour souligner la mise à jour en temps réel.
+
+Une barre de recherche et un bouton de profil utilisateur à droite.
+
+2. Section Principale - Le Classement (Leaderboard) :
+
+Affichage sous forme de liste stylisée ou de grille compacte de 20 lignes.
+
+Pour chaque ligne (produit), intègre les éléments suivants :
+
+Rang : Un numéro de 1 à 20 en grand. (Mettre une icône de couronne ou de trophée pour le Top 3).
+
+Visuel : Une petite miniature carrée avec l'image du produit.
+
+Informations : Le nom du produit (en gras) et un tag de catégorie/niche en dessous (ex: Beauté, Tech, Maison).
+
+Indicateur de Tendance : Un mini-graphique (sparkline) ou une flèche verte orientée vers le haut avec un pourcentage (ex: +45% de demande aujourd'hui).
+
+Métriques de Profit : Le prix d'achat estimé, le prix de vente conseillé, et un badge en surbrillance indiquant la marge bénéficiaire (ex: Marge : 60%).
+
+Appel à l'action (CTA) : Un bouton bien visible à l'extrémité droite "Analyser" ou "Ajouter à Shopify".
+
+3. Panneau Latéral (Sidebar) ou Barre de Filtres :
+
+Des filtres rapides sous forme de boutons pilules (Pills) : "Toutes les niches", "Moins de 20€", "Haute Marge", "Tendance TikTok".
+
+Une petite section "Produit de la semaine" mise en avant avec une carte un peu plus grande.
+
+Interactivité et UX :
+Ajoute des effets de survol (hover) sur les lignes de produits (léger changement de couleur de fond) et assure-toi que l'interface a l'air réactive, avec des données bien alignées et faciles à scanner rapidement du regard.

@@ -1,0 +1,24 @@
+Objectif : Améliorer l'application actuelle en corrigeant le bug des images et en ajoutant des fonctionnalités avancées au panneau "Analyser".
+
+1. Correction des Images (Indispensable) :
+Les images actuelles ne correspondent pas aux produits. Modifie la base de données fictive (mock data). Pour chaque produit, l'image doit être une vraie photo qui correspond à sa niche.
+Utilise l'API Source d'Unsplash avec des mots-clés précis dans l'URL.
+Exemples de structure à intégrer dans le code :
+
+Pour un correcteur de posture (Niche Santé) : https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80 (Yoga/Dos)
+
+Pour une lampe LED (Niche Maison) : https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&q=80 (Lampe)
+
+Pour un masseur facial (Niche Beauté) : https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=400&q=80 (Cosmétique)
+Fais en sorte que chaque produit du Top 20 de chaque catégorie possède sa propre image logique et ultra-professionnelle.
+
+2. Amélioration du Panneau "Analyser" (Nouvelles fonctionnalités) :
+Lorsque l'utilisateur clique sur "Analyser" et que le panneau latéral s'ouvre, ajoute les deux éléments suivants de manière très visuelle :
+
+Le Score de Saturation du Marché : >     Crée une jauge visuelle (un demi-cercle ou une barre de progression) qui va du Vert (Opportunité fraîche / Océan Bleu) au Rouge (Marché Saturé). Affiche un pourcentage de saturation (ex: 24% pour un produit au top, 85% pour un produit trop vu) accompagné d'un petit texte explicatif (ex: "Concurrence faible, idéal pour TikTok Ads").
+
+L'Onglet "Exemples de Publicités" (Spy Tool) :
+Ajoute une section dans le panneau qui simule un outil d'espionnage publicitaire. Intègre 2 ou 3 fausses miniatures de vidéos publicitaires TikTok/Facebook. Chaque miniature doit afficher un nombre de vues simulé (ex: "1.2M vues") et un bouton interactif "Voir la pub" (qui peut simplement ouvrir un lien fictif ou une fausse vidéo).
+
+Instructions de design :
+Reste dans le thème Dark Mode. Utilise des animations fluides (fondu ou glissement) pour l'apparition de la jauge de saturation. Assure-toi que le code reste propre et bien organisé.

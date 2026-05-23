@@ -1,0 +1,53 @@
+Je développe une application web type Dashboard SaaS pour des e-commerçants Shopify. Le design doit être en mode sombre (Dark mode), moderne, avec des accents vert émeraude et bleu électrique.
+Je veux que tu génères le code complet et fonctionnel de cette interface. Fais très attention à la structure des données fictives (mock data) et aux interactions.
+
+1. Structure des données (Très important) :
+Ne fais pas de boucle sur 3 produits. Tu dois créer un objet de données contenant plusieurs catégories. Pour CHACUNE des catégories, tu dois générer une liste de 20 produits distincts.
+Utilise un service comme https://picsum.photos/seed/{id}/200 ou des images Unsplash différentes pour garantir que chaque produit a une image 100% unique.
+
+2. Les Catégories (Filtres sous forme d'onglets) :
+L'utilisateur doit pouvoir naviguer entre ces sections. Quand on clique sur une section, cela affiche le Top 20 spécifique à celle-ci.
+Les sections à inclure sont :
+
+🔥 Top 20 Global
+
+💸 Moins de 20€ (Produits pas chers à sourcer)
+
+🚀 Tendance TikTok (Produits viraux)
+
+💎 Haute Marge (Produits "High Ticket" ou très rentables)
+
+📦 Résolution de problème (Produits utiles/pratiques)
+
+💄 Beauté & Bien-être
+
+3. La Liste des Produits (Le classement) :
+Pour chaque produit dans la liste, affiche :
+
+Le Rang (1 à 20).
+
+La miniature (image unique).
+
+Le nom du produit et sa niche.
+
+Le prix d'achat estimé et le prix de vente conseillé.
+
+Un badge de marge bénéficiaire.
+
+Le bouton "Analyser" (CTA principal).
+
+4. La Fonctionnalité "Analyser" (Interaction UI) :
+Le bouton "Analyser" ne doit pas être inactif. Quand l'utilisateur clique dessus, cela doit ouvrir un panneau latéral coulissant (Slide-over panel) depuis la droite de l'écran, contenant des informations stylées sur le produit sélectionné :
+
+L'image du produit en grand.
+
+Graphique de Tendance : Intègre un faux graphique en courbe (Sparkline ou Recharts) montrant l'évolution de la demande sur les 30 derniers jours (en vert si ça monte).
+
+Analyse Financière : Un tableau propre détaillant le coût du produit, le coût estimé de la pub (CPA), et le profit net par vente.
+
+Ciblage Conseillé : Des tags (pills) indiquant l'audience cible (ex: Femmes 18-34, États-Unis, Intérêt : Fitness).
+
+Boutons d'action : Un bouton "Rechercher sur AliExpress" et un bouton "Voir les pubs TikTok".
+
+Instructions techniques :
+Le code doit être propre, modulaire (utilise React/Next.js et Tailwind CSS si possible). Assure-toi que les transitions entre les onglets de catégories et l'ouverture du panneau "Analyser" soient fluides et animées.

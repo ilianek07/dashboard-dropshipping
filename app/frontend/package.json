@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build --mode production",
     "lint": "eslint --quiet ./src",
     "preview": "vite preview",
     "postinstall": "echo 'Dependencies installed successfully'"
@@ -88,7 +88,7 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1",
-    "vite-plugin-sitemap": "^0.8.2",
-    "vite-prerender-plugin": "^0.5.13"
+    "DISABLED_vite-plugin-sitemap": "^0.8.2",
+    "DISABLED_vite-prerender-plugin": "^0.5.13"
   }
 }
